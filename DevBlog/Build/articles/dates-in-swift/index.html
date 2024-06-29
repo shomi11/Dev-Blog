@@ -1,0 +1,77 @@
+<!doctype html><html lang="en" data-bs-theme="light"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content="We will cover the basics of handling dates in Swift, including creating dates, formatting, and manipulating them."><meta name="author" content="Milos Malovic"><meta name="generator" content="Ignite v0.1.0"><title>Working with Dates in Swift</title><link href="/css/bootstrap.min.css" rel="stylesheet"><link href="/css/prism-default-dark.css" rel="stylesheet"><link href="/css/bootstrap-icons.min.css" rel="stylesheet"><link href="https://www.bytework.dev/articles/dates-in-swift" rel="canonical"><meta property="og:site_name" content="MM dev blog"><meta property="og:title" content="Working with Dates in Swift"><meta property="twitter:title" content="Working with Dates in Swift"><meta property="og:description" content="Working with Dates in Swift"><meta name="twitter:description" content="Working with Dates in Swift"><meta property="og:url" content="https://www.bytework.dev/articles/dates-in-swift"><meta name="twitter:domain" content="bytework.dev"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:dnt" content="on"></head><body style="padding-top: 120px; padding-bottom: 120px"><div class="col-sm-10 mx-auto"><header><nav class="fixed-top navbar navbar-expand-md" style="background-color: rgb(211 211 211 / 100%)" data-bs-theme="dark"><div class="container-fluid col"><a href="/" class="navbar-brand"><img src="/images/nav-image.jpeg"  loading="lazy" class="img-fluid mx-auto" style="width: min(60vw, 100px); height: 100%; border-radius: 100px"alt="nav-image"/></a><button type="button" class="navbar-toggler btn" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button><div id="navbarCollapse" class="collapse navbar-collapse"><ul class="navbar-nav mb-2 mb-md-0 col justify-content-end"><li class="nav-item"><a href="/articles" class="nav-link"><p class="text-dark" style="font-weight: 700">Articles</p></a></li><li class="nav-item"><a href="/apps" class="nav-link"><p class="text-dark" style="font-weight: 700">My Apps</p></a></li></ul></div></div></nav></header><h1>Working with Dates in Swift</h1><div><p>Tagged with: Swift, Dates</p><p>373 words; 2 minutes to read.</p></div><p><p>We will cover the basics of handling dates in Swift, including creating dates, formatting, and manipulating them.</p><h5>Current Date and Time</h5><pre><code class="language-swift">let now = Date()
+let now: Date = .now
+</code></pre><br>
+<h5>Adding time interval</h5><pre><code class="language-swift">let currentDate = Date()
+
+// Add 30 minutes (1800 seconds) to the current date
+let futureDate = currentDate.addingTimeInterval(1800)
+</code></pre><br>
+<h5>To set some hardcoded date</h5><pre><code class="language-swift">var dateComponents = DateComponents()
+dateComponents.year = 2023
+dateComponents.month = 5
+dateComponents.day = 19
+let hadrcodedDate = Calendar.current.date(from: dateComponents) // this is optional, so you can go with if let option or nil coalescing(??)
+</code></pre><br>
+<h5>Parsing date from beckend</h5><pre><code class="language-swift">struct SomeStruct: Codable, Identifiable {
+    
+    var id: UUID
+    var dateString: String
+    
+    var formatedDate: String? {
+        var formater = DateFormatter()
+        formater.dateFormat = "yyyy-MM-dd'T'HH:mm:ssZ"
+        if let date = formater.date(from: dateString) {
+            return DateFormatter.localizedString(from: date, dateStyle: .medium, timeStyle: .none)
+        }
+        return nil
+    }
+    
+    var formatForDeliveryOrderMode: String? {
+        var formater = DateFormatter()
+        formater.dateFormat = "yyyy-MM-dd'T'HH:mm:ssZ"
+        if let date = formater.date(from: dateString) {
+            return "Your order will be delivered at: \(DateFormatter.localizedString(from: date, dateStyle: .none, timeStyle: .short))"
+        }
+        return nil
+    }
+}
+
+let someStruct = SomeStruct(id: UUID(), dateString: "2024-03-27T18:36:36Z")
+print(someStruct.formatedDate ?? "No Date") // output: 27 Mar 2024
+print(someStruct.formatForDeliveryOrderMode ?? "No Date") // output: Your order will be delivered at: 7:36 PM
+</code></pre><br>
+<h5>Comparing dates</h5><pre><code class="language-swift">final class Intake {
+    
+    init(timestamp: Date) {
+        self.timestamp = timestamp
+    }
+    
+    var timestamp: Date = Date()
+    
+    var intakeDay: Date {
+        let components = Calendar.current.dateComponents([.day, .month, .year], from: timestamp)
+        let date = Calendar.current.date(from: components)
+        return date ?? .now
+    }
+}
+
+let components = Calendar.current.dateComponents([.day, .month, .year], from: .now)
+let today = Calendar.current.date(from: components) ?? .now // time is disregarded
+
+let intake: Intake = .init(timestamp: Calendar.current.date(byAdding: .day, value: 1, to: .now) ?? .now)
+let result = intake.intakeDay == today
+print(result) // false
+
+let intake1: Intake = .init(timestamp: .now)
+let result1 = intake1.intakeDay == today
+print(result1) // true
+
+// without filtered components
+let intake2: Intake = .init(timestamp: .now) // same day
+let today2: Date = .now // same day
+
+let res = today2 == intake2.timestamp
+print(today2)
+print(intake.timestamp)
+print(res) // false
+</code></pre></p></div><script src="/js/bootstrap.bundle.min.js"></script><script src="/js/syntax-highlighting.js"></script></body></html>

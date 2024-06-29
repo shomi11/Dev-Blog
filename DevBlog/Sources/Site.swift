@@ -16,7 +16,7 @@ struct IgniteWebsite {
 struct DevBlog: Site {
     var name = "MM dev blog"
     var baseTitle = " – MM dev blog"
-    var url = URL("https://www.example.com")
+    var url = URL(string: "https://www.bytework.dev")!//URL("https://www.example.com")
     var builtInIconsEnabled = true
     var syntaxHighlighters = [SyntaxHighlighter.swift]
     var author = "Milos Malovic"

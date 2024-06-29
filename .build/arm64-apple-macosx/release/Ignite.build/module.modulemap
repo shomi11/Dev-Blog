@@ -1,0 +1,4 @@
+module Ignite {
+    header "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Ignite-Swift.h"
+    requires objc
+}

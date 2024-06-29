@@ -1,0 +1,5 @@
+version: "Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)"
+options: "34c1e9e7c8f24d6d4f9c4f1837107d62"
+build_time: [1716071678, 463880000]
+inputs:
+  "/Users/mbp/Desktop/Ignite/.build/checkouts/swift-argument-parser/Sources/ArgumentParserToolInfo/ToolInfo.swift": [1716071191, 561696366]

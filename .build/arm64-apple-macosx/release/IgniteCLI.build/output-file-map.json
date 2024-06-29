@@ -1,0 +1,32 @@
+{
+  "": {
+    "dependencies": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/IgniteCLI.build/IgniteCLI.d",
+    "object": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/IgniteCLI.build/IgniteCLI.o",
+    "swift-dependencies": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/IgniteCLI.build/master.swiftdeps"
+  },
+  "/Users/mbp/Desktop/Ignite/Sources/IgniteCLI/BuildCommand.swift": {
+    "object": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/IgniteCLI.build/BuildCommand.swift.o",
+    "swiftmodule": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/IgniteCLI.build/BuildCommand~partial.swiftmodule",
+    "swift-dependencies": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/IgniteCLI.build/BuildCommand.swiftdeps"
+  },
+  "/Users/mbp/Desktop/Ignite/Sources/IgniteCLI/IgniteCLI.swift": {
+    "object": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/IgniteCLI.build/IgniteCLI.swift.o",
+    "swiftmodule": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/IgniteCLI.build/IgniteCLI~partial.swiftmodule",
+    "swift-dependencies": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/IgniteCLI.build/IgniteCLI.swiftdeps"
+  },
+  "/Users/mbp/Desktop/Ignite/Sources/IgniteCLI/NewCommand.swift": {
+    "object": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/IgniteCLI.build/NewCommand.swift.o",
+    "swiftmodule": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/IgniteCLI.build/NewCommand~partial.swiftmodule",
+    "swift-dependencies": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/IgniteCLI.build/NewCommand.swiftdeps"
+  },
+  "/Users/mbp/Desktop/Ignite/Sources/IgniteCLI/Process-Execute.swift": {
+    "object": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/IgniteCLI.build/Process-Execute.swift.o",
+    "swiftmodule": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/IgniteCLI.build/Process-Execute~partial.swiftmodule",
+    "swift-dependencies": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/IgniteCLI.build/Process-Execute.swiftdeps"
+  },
+  "/Users/mbp/Desktop/Ignite/Sources/IgniteCLI/RunCommand.swift": {
+    "object": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/IgniteCLI.build/RunCommand.swift.o",
+    "swiftmodule": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/IgniteCLI.build/RunCommand~partial.swiftmodule",
+    "swift-dependencies": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/IgniteCLI.build/RunCommand.swiftdeps"
+  }
+}

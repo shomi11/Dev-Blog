@@ -1,0 +1,12 @@
+{
+  "": {
+    "dependencies": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/ArgumentParserToolInfo.build/ArgumentParserToolInfo.d",
+    "object": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/ArgumentParserToolInfo.build/ArgumentParserToolInfo.o",
+    "swift-dependencies": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/ArgumentParserToolInfo.build/master.swiftdeps"
+  },
+  "/Users/mbp/Desktop/Ignite/.build/checkouts/swift-argument-parser/Sources/ArgumentParserToolInfo/ToolInfo.swift": {
+    "object": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/ArgumentParserToolInfo.build/ToolInfo.swift.o",
+    "swiftmodule": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/ArgumentParserToolInfo.build/ToolInfo~partial.swiftmodule",
+    "swift-dependencies": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/ArgumentParserToolInfo.build/ToolInfo.swiftdeps"
+  }
+}

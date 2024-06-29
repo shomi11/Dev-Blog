@@ -10,7 +10,7 @@ struct MyTheme: Theme {
                 
                 page.body
                 
-                IgniteFooter()
+                MMFooter()
             }
             .padding(.vertical, 120)
         }

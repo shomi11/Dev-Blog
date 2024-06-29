@@ -1,0 +1,4 @@
+module ArgumentParser {
+    header "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/debug/ArgumentParser.build/ArgumentParser-Swift.h"
+    requires objc
+}

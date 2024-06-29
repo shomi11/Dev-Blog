@@ -1,0 +1,77 @@
+{
+  "": {
+    "dependencies": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/IgniteTests.build/IgniteTests.d",
+    "object": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/IgniteTests.build/IgniteTests.o",
+    "swift-dependencies": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/IgniteTests.build/master.swiftdeps"
+  },
+  "/Users/mbp/Desktop/Ignite/Tests/IgniteTests/Elements/Abbreviation.swift": {
+    "object": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/IgniteTests.build/Abbreviation.swift.o",
+    "swiftmodule": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/IgniteTests.build/Abbreviation~partial.swiftmodule",
+    "swift-dependencies": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/IgniteTests.build/Abbreviation.swiftdeps"
+  },
+  "/Users/mbp/Desktop/Ignite/Tests/IgniteTests/Elements/Image.swift": {
+    "object": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/IgniteTests.build/Image.swift.o",
+    "swiftmodule": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/IgniteTests.build/Image~partial.swiftmodule",
+    "swift-dependencies": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/IgniteTests.build/Image.swiftdeps"
+  },
+  "/Users/mbp/Desktop/Ignite/Tests/IgniteTests/Elements/PlainText.swift": {
+    "object": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/IgniteTests.build/PlainText.swift.o",
+    "swiftmodule": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/IgniteTests.build/PlainText~partial.swiftmodule",
+    "swift-dependencies": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/IgniteTests.build/PlainText.swiftdeps"
+  },
+  "/Users/mbp/Desktop/Ignite/Tests/IgniteTests/Elements/Script.swift": {
+    "object": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/IgniteTests.build/Script.swift.o",
+    "swiftmodule": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/IgniteTests.build/Script~partial.swiftmodule",
+    "swift-dependencies": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/IgniteTests.build/Script.swiftdeps"
+  },
+  "/Users/mbp/Desktop/Ignite/Tests/IgniteTests/Elements/Span.swift": {
+    "object": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/IgniteTests.build/Span.swift.o",
+    "swiftmodule": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/IgniteTests.build/Span~partial.swiftmodule",
+    "swift-dependencies": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/IgniteTests.build/Span.swiftdeps"
+  },
+  "/Users/mbp/Desktop/Ignite/Tests/IgniteTests/Elements/TItle.swift": {
+    "object": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/IgniteTests.build/TItle.swift.o",
+    "swiftmodule": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/IgniteTests.build/TItle~partial.swiftmodule",
+    "swift-dependencies": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/IgniteTests.build/TItle.swiftdeps"
+  },
+  "/Users/mbp/Desktop/Ignite/Tests/IgniteTests/Elements/Text.swift": {
+    "object": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/IgniteTests.build/Text.swift.o",
+    "swiftmodule": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/IgniteTests.build/Text~partial.swiftmodule",
+    "swift-dependencies": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/IgniteTests.build/Text.swiftdeps"
+  },
+  "/Users/mbp/Desktop/Ignite/Tests/IgniteTests/IgniteTests.swift": {
+    "object": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/IgniteTests.build/IgniteTests.swift.o",
+    "swiftmodule": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/IgniteTests.build/IgniteTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/IgniteTests.build/IgniteTests.swiftdeps"
+  },
+  "/Users/mbp/Desktop/Ignite/Tests/IgniteTests/NonRoot Elements/SubsiteBody.swift": {
+    "object": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/IgniteTests.build/SubsiteBody.swift.o",
+    "swiftmodule": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/IgniteTests.build/SubsiteBody~partial.swiftmodule",
+    "swift-dependencies": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/IgniteTests.build/SubsiteBody.swiftdeps"
+  },
+  "/Users/mbp/Desktop/Ignite/Tests/IgniteTests/NonRoot Elements/SubsiteImage.swift": {
+    "object": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/IgniteTests.build/SubsiteImage.swift.o",
+    "swiftmodule": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/IgniteTests.build/SubsiteImage~partial.swiftmodule",
+    "swift-dependencies": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/IgniteTests.build/SubsiteImage.swiftdeps"
+  },
+  "/Users/mbp/Desktop/Ignite/Tests/IgniteTests/NonRoot Elements/SubsiteLink.swift": {
+    "object": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/IgniteTests.build/SubsiteLink.swift.o",
+    "swiftmodule": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/IgniteTests.build/SubsiteLink~partial.swiftmodule",
+    "swift-dependencies": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/IgniteTests.build/SubsiteLink.swiftdeps"
+  },
+  "/Users/mbp/Desktop/Ignite/Tests/IgniteTests/NonRoot Elements/SubsiteScript.swift": {
+    "object": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/IgniteTests.build/SubsiteScript.swift.o",
+    "swiftmodule": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/IgniteTests.build/SubsiteScript~partial.swiftmodule",
+    "swift-dependencies": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/IgniteTests.build/SubsiteScript.swiftdeps"
+  },
+  "/Users/mbp/Desktop/Ignite/Tests/IgniteTests/TestSite.swift": {
+    "object": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/IgniteTests.build/TestSite.swift.o",
+    "swiftmodule": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/IgniteTests.build/TestSite~partial.swiftmodule",
+    "swift-dependencies": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/IgniteTests.build/TestSite.swiftdeps"
+  },
+  "/Users/mbp/Desktop/Ignite/Tests/IgniteTests/TestSubsite.swift": {
+    "object": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/IgniteTests.build/TestSubsite.swift.o",
+    "swiftmodule": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/IgniteTests.build/TestSubsite~partial.swiftmodule",
+    "swift-dependencies": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/IgniteTests.build/TestSubsite.swiftdeps"
+  }
+}

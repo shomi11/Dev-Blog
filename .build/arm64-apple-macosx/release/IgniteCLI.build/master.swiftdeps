@@ -1,0 +1,9 @@
+version: "Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)"
+options: "86b5954c3cfb38f0a69095fc08f7a5d8"
+build_time: [1716071219, 338154000]
+inputs:
+  "/Users/mbp/Desktop/Ignite/Sources/IgniteCLI/BuildCommand.swift": [9223372036, 854775807]
+  "/Users/mbp/Desktop/Ignite/Sources/IgniteCLI/IgniteCLI.swift": [9223372036, 854775807]
+  "/Users/mbp/Desktop/Ignite/Sources/IgniteCLI/NewCommand.swift": [9223372036, 854775807]
+  "/Users/mbp/Desktop/Ignite/Sources/IgniteCLI/Process-Execute.swift": [9223372036, 854775807]
+  "/Users/mbp/Desktop/Ignite/Sources/IgniteCLI/RunCommand.swift": [9223372036, 854775807]

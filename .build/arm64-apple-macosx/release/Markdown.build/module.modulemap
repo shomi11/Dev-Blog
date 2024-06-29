@@ -1,0 +1,4 @@
+module Markdown {
+    header "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Markdown.build/Markdown-Swift.h"
+    requires objc
+}

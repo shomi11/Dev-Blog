@@ -1,0 +1,692 @@
+{
+  "": {
+    "dependencies": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Ignite.d",
+    "object": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Ignite.o",
+    "swift-dependencies": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/master.swiftdeps"
+  },
+  "/Users/mbp/Desktop/Ignite/Sources/Ignite/Actions/Action.swift": {
+    "object": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Action.swift.o",
+    "swiftmodule": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Action~partial.swiftmodule",
+    "swift-dependencies": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Action.swiftdeps"
+  },
+  "/Users/mbp/Desktop/Ignite/Sources/Ignite/Actions/CustomAction.swift": {
+    "object": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/CustomAction.swift.o",
+    "swiftmodule": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/CustomAction~partial.swiftmodule",
+    "swift-dependencies": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/CustomAction.swiftdeps"
+  },
+  "/Users/mbp/Desktop/Ignite/Sources/Ignite/Actions/EventModifiers.swift": {
+    "object": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/EventModifiers.swift.o",
+    "swiftmodule": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/EventModifiers~partial.swiftmodule",
+    "swift-dependencies": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/EventModifiers.swiftdeps"
+  },
+  "/Users/mbp/Desktop/Ignite/Sources/Ignite/Actions/HideElement.swift": {
+    "object": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/HideElement.swift.o",
+    "swiftmodule": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/HideElement~partial.swiftmodule",
+    "swift-dependencies": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/HideElement.swiftdeps"
+  },
+  "/Users/mbp/Desktop/Ignite/Sources/Ignite/Actions/ShowAlert.swift": {
+    "object": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/ShowAlert.swift.o",
+    "swiftmodule": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/ShowAlert~partial.swiftmodule",
+    "swift-dependencies": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/ShowAlert.swiftdeps"
+  },
+  "/Users/mbp/Desktop/Ignite/Sources/Ignite/Actions/ShowElement.swift": {
+    "object": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/ShowElement.swift.o",
+    "swiftmodule": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/ShowElement~partial.swiftmodule",
+    "swift-dependencies": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/ShowElement.swiftdeps"
+  },
+  "/Users/mbp/Desktop/Ignite/Sources/Ignite/Components/FeedLink.swift": {
+    "object": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/FeedLink.swift.o",
+    "swiftmodule": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/FeedLink~partial.swiftmodule",
+    "swift-dependencies": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/FeedLink.swiftdeps"
+  },
+  "/Users/mbp/Desktop/Ignite/Sources/Ignite/Components/IgniteFooter.swift": {
+    "object": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/IgniteFooter.swift.o",
+    "swiftmodule": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/IgniteFooter~partial.swiftmodule",
+    "swift-dependencies": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/IgniteFooter.swiftdeps"
+  },
+  "/Users/mbp/Desktop/Ignite/Sources/Ignite/Elements/Abbreviation.swift": {
+    "object": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Abbreviation.swift.o",
+    "swiftmodule": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Abbreviation~partial.swiftmodule",
+    "swift-dependencies": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Abbreviation.swiftdeps"
+  },
+  "/Users/mbp/Desktop/Ignite/Sources/Ignite/Elements/Accordion.swift": {
+    "object": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Accordion.swift.o",
+    "swiftmodule": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Accordion~partial.swiftmodule",
+    "swift-dependencies": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Accordion.swiftdeps"
+  },
+  "/Users/mbp/Desktop/Ignite/Sources/Ignite/Elements/Alert.swift": {
+    "object": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Alert.swift.o",
+    "swiftmodule": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Alert~partial.swiftmodule",
+    "swift-dependencies": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Alert.swiftdeps"
+  },
+  "/Users/mbp/Desktop/Ignite/Sources/Ignite/Elements/Badge.swift": {
+    "object": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Badge.swift.o",
+    "swiftmodule": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Badge~partial.swiftmodule",
+    "swift-dependencies": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Badge.swiftdeps"
+  },
+  "/Users/mbp/Desktop/Ignite/Sources/Ignite/Elements/Body.swift": {
+    "object": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Body.swift.o",
+    "swiftmodule": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Body~partial.swiftmodule",
+    "swift-dependencies": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Body.swiftdeps"
+  },
+  "/Users/mbp/Desktop/Ignite/Sources/Ignite/Elements/Button.swift": {
+    "object": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Button.swift.o",
+    "swiftmodule": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Button~partial.swiftmodule",
+    "swift-dependencies": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Button.swiftdeps"
+  },
+  "/Users/mbp/Desktop/Ignite/Sources/Ignite/Elements/ButtonGroup.swift": {
+    "object": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/ButtonGroup.swift.o",
+    "swiftmodule": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/ButtonGroup~partial.swiftmodule",
+    "swift-dependencies": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/ButtonGroup.swiftdeps"
+  },
+  "/Users/mbp/Desktop/Ignite/Sources/Ignite/Elements/Card.swift": {
+    "object": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Card.swift.o",
+    "swiftmodule": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Card~partial.swiftmodule",
+    "swift-dependencies": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Card.swiftdeps"
+  },
+  "/Users/mbp/Desktop/Ignite/Sources/Ignite/Elements/Carousel.swift": {
+    "object": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Carousel.swift.o",
+    "swiftmodule": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Carousel~partial.swiftmodule",
+    "swift-dependencies": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Carousel.swiftdeps"
+  },
+  "/Users/mbp/Desktop/Ignite/Sources/Ignite/Elements/Code.swift": {
+    "object": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Code.swift.o",
+    "swiftmodule": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Code~partial.swiftmodule",
+    "swift-dependencies": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Code.swiftdeps"
+  },
+  "/Users/mbp/Desktop/Ignite/Sources/Ignite/Elements/CodeBlock.swift": {
+    "object": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/CodeBlock.swift.o",
+    "swiftmodule": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/CodeBlock~partial.swiftmodule",
+    "swift-dependencies": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/CodeBlock.swiftdeps"
+  },
+  "/Users/mbp/Desktop/Ignite/Sources/Ignite/Elements/Column.swift": {
+    "object": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Column.swift.o",
+    "swiftmodule": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Column~partial.swiftmodule",
+    "swift-dependencies": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Column.swiftdeps"
+  },
+  "/Users/mbp/Desktop/Ignite/Sources/Ignite/Elements/ContentPreview.swift": {
+    "object": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/ContentPreview.swift.o",
+    "swiftmodule": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/ContentPreview~partial.swiftmodule",
+    "swift-dependencies": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/ContentPreview.swiftdeps"
+  },
+  "/Users/mbp/Desktop/Ignite/Sources/Ignite/Elements/Divider.swift": {
+    "object": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Divider.swift.o",
+    "swiftmodule": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Divider~partial.swiftmodule",
+    "swift-dependencies": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Divider.swiftdeps"
+  },
+  "/Users/mbp/Desktop/Ignite/Sources/Ignite/Elements/Dropdown.swift": {
+    "object": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Dropdown.swift.o",
+    "swiftmodule": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Dropdown~partial.swiftmodule",
+    "swift-dependencies": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Dropdown.swiftdeps"
+  },
+  "/Users/mbp/Desktop/Ignite/Sources/Ignite/Elements/Embed.swift": {
+    "object": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Embed.swift.o",
+    "swiftmodule": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Embed~partial.swiftmodule",
+    "swift-dependencies": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Embed.swiftdeps"
+  },
+  "/Users/mbp/Desktop/Ignite/Sources/Ignite/Elements/Emphasis.swift": {
+    "object": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Emphasis.swift.o",
+    "swiftmodule": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Emphasis~partial.swiftmodule",
+    "swift-dependencies": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Emphasis.swiftdeps"
+  },
+  "/Users/mbp/Desktop/Ignite/Sources/Ignite/Elements/Group.swift": {
+    "object": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Group.swift.o",
+    "swiftmodule": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Group~partial.swiftmodule",
+    "swift-dependencies": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Group.swiftdeps"
+  },
+  "/Users/mbp/Desktop/Ignite/Sources/Ignite/Elements/HTML.swift": {
+    "object": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/HTML.swift.o",
+    "swiftmodule": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/HTML~partial.swiftmodule",
+    "swift-dependencies": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/HTML.swiftdeps"
+  },
+  "/Users/mbp/Desktop/Ignite/Sources/Ignite/Elements/Head.swift": {
+    "object": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Head.swift.o",
+    "swiftmodule": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Head~partial.swiftmodule",
+    "swift-dependencies": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Head.swiftdeps"
+  },
+  "/Users/mbp/Desktop/Ignite/Sources/Ignite/Elements/Image.swift": {
+    "object": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Image.swift.o",
+    "swiftmodule": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Image~partial.swiftmodule",
+    "swift-dependencies": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Image.swiftdeps"
+  },
+  "/Users/mbp/Desktop/Ignite/Sources/Ignite/Elements/Include.swift": {
+    "object": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Include.swift.o",
+    "swiftmodule": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Include~partial.swiftmodule",
+    "swift-dependencies": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Include.swiftdeps"
+  },
+  "/Users/mbp/Desktop/Ignite/Sources/Ignite/Elements/Item.swift": {
+    "object": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Item.swift.o",
+    "swiftmodule": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Item~partial.swiftmodule",
+    "swift-dependencies": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Item.swiftdeps"
+  },
+  "/Users/mbp/Desktop/Ignite/Sources/Ignite/Elements/Link.swift": {
+    "object": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Link.swift.o",
+    "swiftmodule": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Link~partial.swiftmodule",
+    "swift-dependencies": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Link.swiftdeps"
+  },
+  "/Users/mbp/Desktop/Ignite/Sources/Ignite/Elements/List.swift": {
+    "object": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/List.swift.o",
+    "swiftmodule": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/List~partial.swiftmodule",
+    "swift-dependencies": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/List.swiftdeps"
+  },
+  "/Users/mbp/Desktop/Ignite/Sources/Ignite/Elements/ListItem.swift": {
+    "object": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/ListItem.swift.o",
+    "swiftmodule": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/ListItem~partial.swiftmodule",
+    "swift-dependencies": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/ListItem.swiftdeps"
+  },
+  "/Users/mbp/Desktop/Ignite/Sources/Ignite/Elements/MetaLink.swift": {
+    "object": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/MetaLink.swift.o",
+    "swiftmodule": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/MetaLink~partial.swiftmodule",
+    "swift-dependencies": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/MetaLink.swiftdeps"
+  },
+  "/Users/mbp/Desktop/Ignite/Sources/Ignite/Elements/MetaTag.swift": {
+    "object": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/MetaTag.swift.o",
+    "swiftmodule": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/MetaTag~partial.swiftmodule",
+    "swift-dependencies": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/MetaTag.swiftdeps"
+  },
+  "/Users/mbp/Desktop/Ignite/Sources/Ignite/Elements/NavigationBar.swift": {
+    "object": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/NavigationBar.swift.o",
+    "swiftmodule": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/NavigationBar~partial.swiftmodule",
+    "swift-dependencies": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/NavigationBar.swiftdeps"
+  },
+  "/Users/mbp/Desktop/Ignite/Sources/Ignite/Elements/PlainText.swift": {
+    "object": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/PlainText.swift.o",
+    "swiftmodule": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/PlainText~partial.swiftmodule",
+    "swift-dependencies": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/PlainText.swiftdeps"
+  },
+  "/Users/mbp/Desktop/Ignite/Sources/Ignite/Elements/Quote.swift": {
+    "object": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Quote.swift.o",
+    "swiftmodule": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Quote~partial.swiftmodule",
+    "swift-dependencies": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Quote.swiftdeps"
+  },
+  "/Users/mbp/Desktop/Ignite/Sources/Ignite/Elements/Row.swift": {
+    "object": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Row.swift.o",
+    "swiftmodule": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Row~partial.swiftmodule",
+    "swift-dependencies": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Row.swiftdeps"
+  },
+  "/Users/mbp/Desktop/Ignite/Sources/Ignite/Elements/Script.swift": {
+    "object": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Script.swift.o",
+    "swiftmodule": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Script~partial.swiftmodule",
+    "swift-dependencies": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Script.swiftdeps"
+  },
+  "/Users/mbp/Desktop/Ignite/Sources/Ignite/Elements/Section.swift": {
+    "object": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Section.swift.o",
+    "swiftmodule": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Section~partial.swiftmodule",
+    "swift-dependencies": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Section.swiftdeps"
+  },
+  "/Users/mbp/Desktop/Ignite/Sources/Ignite/Elements/Slide.swift": {
+    "object": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Slide.swift.o",
+    "swiftmodule": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Slide~partial.swiftmodule",
+    "swift-dependencies": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Slide.swiftdeps"
+  },
+  "/Users/mbp/Desktop/Ignite/Sources/Ignite/Elements/Spacer.swift": {
+    "object": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Spacer.swift.o",
+    "swiftmodule": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Spacer~partial.swiftmodule",
+    "swift-dependencies": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Spacer.swiftdeps"
+  },
+  "/Users/mbp/Desktop/Ignite/Sources/Ignite/Elements/Span.swift": {
+    "object": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Span.swift.o",
+    "swiftmodule": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Span~partial.swiftmodule",
+    "swift-dependencies": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Span.swiftdeps"
+  },
+  "/Users/mbp/Desktop/Ignite/Sources/Ignite/Elements/Strikethrough.swift": {
+    "object": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Strikethrough.swift.o",
+    "swiftmodule": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Strikethrough~partial.swiftmodule",
+    "swift-dependencies": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Strikethrough.swiftdeps"
+  },
+  "/Users/mbp/Desktop/Ignite/Sources/Ignite/Elements/Strong.swift": {
+    "object": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Strong.swift.o",
+    "swiftmodule": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Strong~partial.swiftmodule",
+    "swift-dependencies": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Strong.swiftdeps"
+  },
+  "/Users/mbp/Desktop/Ignite/Sources/Ignite/Elements/Table.swift": {
+    "object": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Table.swift.o",
+    "swiftmodule": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Table~partial.swiftmodule",
+    "swift-dependencies": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Table.swiftdeps"
+  },
+  "/Users/mbp/Desktop/Ignite/Sources/Ignite/Elements/Tag.swift": {
+    "object": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Tag.swift.o",
+    "swiftmodule": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Tag~partial.swiftmodule",
+    "swift-dependencies": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Tag.swiftdeps"
+  },
+  "/Users/mbp/Desktop/Ignite/Sources/Ignite/Elements/Text.swift": {
+    "object": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Text.swift.o",
+    "swiftmodule": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Text~partial.swiftmodule",
+    "swift-dependencies": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Text.swiftdeps"
+  },
+  "/Users/mbp/Desktop/Ignite/Sources/Ignite/Elements/Title.swift": {
+    "object": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Title.swift.o",
+    "swiftmodule": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Title~partial.swiftmodule",
+    "swift-dependencies": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Title.swiftdeps"
+  },
+  "/Users/mbp/Desktop/Ignite/Sources/Ignite/Elements/Underline.swift": {
+    "object": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Underline.swift.o",
+    "swiftmodule": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Underline~partial.swiftmodule",
+    "swift-dependencies": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Underline.swiftdeps"
+  },
+  "/Users/mbp/Desktop/Ignite/Sources/Ignite/Extensions/Array-ContainsLocation.swift": {
+    "object": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Array-ContainsLocation.swift.o",
+    "swiftmodule": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Array-ContainsLocation~partial.swiftmodule",
+    "swift-dependencies": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Array-ContainsLocation.swiftdeps"
+  },
+  "/Users/mbp/Desktop/Ignite/Sources/Ignite/Extensions/Array-DefinitelyNotAHack.swift": {
+    "object": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Array-DefinitelyNotAHack.swift.o",
+    "swiftmodule": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Array-DefinitelyNotAHack~partial.swiftmodule",
+    "swift-dependencies": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Array-DefinitelyNotAHack.swiftdeps"
+  },
+  "/Users/mbp/Desktop/Ignite/Sources/Ignite/Extensions/Array-ElementRendering.swift": {
+    "object": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Array-ElementRendering.swift.o",
+    "swiftmodule": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Array-ElementRendering~partial.swiftmodule",
+    "swift-dependencies": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Array-ElementRendering.swiftdeps"
+  },
+  "/Users/mbp/Desktop/Ignite/Sources/Ignite/Extensions/Array-LocalizedContains.swift": {
+    "object": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Array-LocalizedContains.swift.o",
+    "swiftmodule": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Array-LocalizedContains~partial.swiftmodule",
+    "swift-dependencies": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Array-LocalizedContains.swiftdeps"
+  },
+  "/Users/mbp/Desktop/Ignite/Sources/Ignite/Extensions/Array-Sorting.swift": {
+    "object": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Array-Sorting.swift.o",
+    "swiftmodule": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Array-Sorting~partial.swiftmodule",
+    "swift-dependencies": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Array-Sorting.swiftdeps"
+  },
+  "/Users/mbp/Desktop/Ignite/Sources/Ignite/Extensions/Date-RFC822.swift": {
+    "object": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Date-RFC822.swift.o",
+    "swiftmodule": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Date-RFC822~partial.swiftmodule",
+    "swift-dependencies": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Date-RFC822.swiftdeps"
+  },
+  "/Users/mbp/Desktop/Ignite/Sources/Ignite/Extensions/String-AbsoluteLinks.swift": {
+    "object": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/String-AbsoluteLinks.swift.o",
+    "swiftmodule": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/String-AbsoluteLinks~partial.swiftmodule",
+    "swift-dependencies": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/String-AbsoluteLinks.swiftdeps"
+  },
+  "/Users/mbp/Desktop/Ignite/Sources/Ignite/Extensions/String-EscapedForJavaScript.swift": {
+    "object": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/String-EscapedForJavaScript.swift.o",
+    "swiftmodule": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/String-EscapedForJavaScript~partial.swiftmodule",
+    "swift-dependencies": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/String-EscapedForJavaScript.swiftdeps"
+  },
+  "/Users/mbp/Desktop/Ignite/Sources/Ignite/Extensions/String-Slug.swift": {
+    "object": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/String-Slug.swift.o",
+    "swiftmodule": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/String-Slug~partial.swiftmodule",
+    "swift-dependencies": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/String-Slug.swiftdeps"
+  },
+  "/Users/mbp/Desktop/Ignite/Sources/Ignite/Extensions/String-SplitAndTrim.swift": {
+    "object": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/String-SplitAndTrim.swift.o",
+    "swiftmodule": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/String-SplitAndTrim~partial.swiftmodule",
+    "swift-dependencies": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/String-SplitAndTrim.swiftdeps"
+  },
+  "/Users/mbp/Desktop/Ignite/Sources/Ignite/Extensions/String-StrippingTags.swift": {
+    "object": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/String-StrippingTags.swift.o",
+    "swiftmodule": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/String-StrippingTags~partial.swiftmodule",
+    "swift-dependencies": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/String-StrippingTags.swiftdeps"
+  },
+  "/Users/mbp/Desktop/Ignite/Sources/Ignite/Extensions/URL-PackageDirectory.swift": {
+    "object": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/URL-PackageDirectory.swift.o",
+    "swiftmodule": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/URL-PackageDirectory~partial.swiftmodule",
+    "swift-dependencies": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/URL-PackageDirectory.swiftdeps"
+  },
+  "/Users/mbp/Desktop/Ignite/Sources/Ignite/Extensions/URL-Relative.swift": {
+    "object": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/URL-Relative.swift.o",
+    "swiftmodule": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/URL-Relative~partial.swiftmodule",
+    "swift-dependencies": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/URL-Relative.swiftdeps"
+  },
+  "/Users/mbp/Desktop/Ignite/Sources/Ignite/Extensions/URL-RemovingWWW.swift": {
+    "object": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/URL-RemovingWWW.swift.o",
+    "swiftmodule": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/URL-RemovingWWW~partial.swiftmodule",
+    "swift-dependencies": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/URL-RemovingWWW.swiftdeps"
+  },
+  "/Users/mbp/Desktop/Ignite/Sources/Ignite/Extensions/URL-Unwrapped.swift": {
+    "object": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/URL-Unwrapped.swift.o",
+    "swiftmodule": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/URL-Unwrapped~partial.swiftmodule",
+    "swift-dependencies": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/URL-Unwrapped.swiftdeps"
+  },
+  "/Users/mbp/Desktop/Ignite/Sources/Ignite/Framework/Component.swift": {
+    "object": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Component.swift.o",
+    "swiftmodule": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Component~partial.swiftmodule",
+    "swift-dependencies": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Component.swiftdeps"
+  },
+  "/Users/mbp/Desktop/Ignite/Sources/Ignite/Framework/Content.swift": {
+    "object": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Content.swift.o",
+    "swiftmodule": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Content~partial.swiftmodule",
+    "swift-dependencies": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Content.swiftdeps"
+  },
+  "/Users/mbp/Desktop/Ignite/Sources/Ignite/Framework/ContentPage.swift": {
+    "object": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/ContentPage.swift.o",
+    "swiftmodule": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/ContentPage~partial.swiftmodule",
+    "swift-dependencies": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/ContentPage.swiftdeps"
+  },
+  "/Users/mbp/Desktop/Ignite/Sources/Ignite/Framework/ElementTypes/BaseElement.swift": {
+    "object": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/BaseElement.swift.o",
+    "swiftmodule": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/BaseElement~partial.swiftmodule",
+    "swift-dependencies": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/BaseElement.swiftdeps"
+  },
+  "/Users/mbp/Desktop/Ignite/Sources/Ignite/Framework/ElementTypes/BlockElement.swift": {
+    "object": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/BlockElement.swift.o",
+    "swiftmodule": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/BlockElement~partial.swiftmodule",
+    "swift-dependencies": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/BlockElement.swiftdeps"
+  },
+  "/Users/mbp/Desktop/Ignite/Sources/Ignite/Framework/ElementTypes/HTMLRootElement.swift": {
+    "object": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/HTMLRootElement.swift.o",
+    "swiftmodule": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/HTMLRootElement~partial.swiftmodule",
+    "swift-dependencies": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/HTMLRootElement.swiftdeps"
+  },
+  "/Users/mbp/Desktop/Ignite/Sources/Ignite/Framework/ElementTypes/HeadElement.swift": {
+    "object": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/HeadElement.swift.o",
+    "swiftmodule": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/HeadElement~partial.swiftmodule",
+    "swift-dependencies": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/HeadElement.swiftdeps"
+  },
+  "/Users/mbp/Desktop/Ignite/Sources/Ignite/Framework/ElementTypes/InlineElement.swift": {
+    "object": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/InlineElement.swift.o",
+    "swiftmodule": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/InlineElement~partial.swiftmodule",
+    "swift-dependencies": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/InlineElement.swiftdeps"
+  },
+  "/Users/mbp/Desktop/Ignite/Sources/Ignite/Framework/ElementTypes/PageElement.swift": {
+    "object": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/PageElement.swift.o",
+    "swiftmodule": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/PageElement~partial.swiftmodule",
+    "swift-dependencies": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/PageElement.swiftdeps"
+  },
+  "/Users/mbp/Desktop/Ignite/Sources/Ignite/Framework/EmptyTagPage.swift": {
+    "object": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/EmptyTagPage.swift.o",
+    "swiftmodule": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/EmptyTagPage~partial.swiftmodule",
+    "swift-dependencies": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/EmptyTagPage.swiftdeps"
+  },
+  "/Users/mbp/Desktop/Ignite/Sources/Ignite/Framework/Event.swift": {
+    "object": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Event.swift.o",
+    "swiftmodule": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Event~partial.swiftmodule",
+    "swift-dependencies": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Event.swiftdeps"
+  },
+  "/Users/mbp/Desktop/Ignite/Sources/Ignite/Framework/FeedConfiguration.swift": {
+    "object": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/FeedConfiguration.swift.o",
+    "swiftmodule": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/FeedConfiguration~partial.swiftmodule",
+    "swift-dependencies": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/FeedConfiguration.swiftdeps"
+  },
+  "/Users/mbp/Desktop/Ignite/Sources/Ignite/Framework/Language.swift": {
+    "object": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Language.swift.o",
+    "swiftmodule": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Language~partial.swiftmodule",
+    "swift-dependencies": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Language.swiftdeps"
+  },
+  "/Users/mbp/Desktop/Ignite/Sources/Ignite/Framework/Robots/DefaultRobotsConfiguration.swift": {
+    "object": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/DefaultRobotsConfiguration.swift.o",
+    "swiftmodule": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/DefaultRobotsConfiguration~partial.swiftmodule",
+    "swift-dependencies": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/DefaultRobotsConfiguration.swiftdeps"
+  },
+  "/Users/mbp/Desktop/Ignite/Sources/Ignite/Framework/Robots/DisallowRule.swift": {
+    "object": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/DisallowRule.swift.o",
+    "swiftmodule": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/DisallowRule~partial.swiftmodule",
+    "swift-dependencies": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/DisallowRule.swiftdeps"
+  },
+  "/Users/mbp/Desktop/Ignite/Sources/Ignite/Framework/Robots/KnownRobot.swift": {
+    "object": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/KnownRobot.swift.o",
+    "swiftmodule": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/KnownRobot~partial.swiftmodule",
+    "swift-dependencies": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/KnownRobot.swiftdeps"
+  },
+  "/Users/mbp/Desktop/Ignite/Sources/Ignite/Framework/Robots/RobotsConfiguration.swift": {
+    "object": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/RobotsConfiguration.swift.o",
+    "swiftmodule": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/RobotsConfiguration~partial.swiftmodule",
+    "swift-dependencies": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/RobotsConfiguration.swiftdeps"
+  },
+  "/Users/mbp/Desktop/Ignite/Sources/Ignite/Framework/Site.swift": {
+    "object": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Site.swift.o",
+    "swiftmodule": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Site~partial.swiftmodule",
+    "swift-dependencies": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Site.swiftdeps"
+  },
+  "/Users/mbp/Desktop/Ignite/Sources/Ignite/Framework/StaticPage.swift": {
+    "object": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/StaticPage.swift.o",
+    "swiftmodule": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/StaticPage~partial.swiftmodule",
+    "swift-dependencies": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/StaticPage.swiftdeps"
+  },
+  "/Users/mbp/Desktop/Ignite/Sources/Ignite/Framework/SyntaxHighlighter.swift": {
+    "object": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/SyntaxHighlighter.swift.o",
+    "swiftmodule": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/SyntaxHighlighter~partial.swiftmodule",
+    "swift-dependencies": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/SyntaxHighlighter.swiftdeps"
+  },
+  "/Users/mbp/Desktop/Ignite/Sources/Ignite/Framework/TagPage.swift": {
+    "object": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/TagPage.swift.o",
+    "swiftmodule": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/TagPage~partial.swiftmodule",
+    "swift-dependencies": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/TagPage.swiftdeps"
+  },
+  "/Users/mbp/Desktop/Ignite/Sources/Ignite/Framework/Theme.swift": {
+    "object": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Theme.swift.o",
+    "swiftmodule": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Theme~partial.swiftmodule",
+    "swift-dependencies": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Theme.swiftdeps"
+  },
+  "/Users/mbp/Desktop/Ignite/Sources/Ignite/Framework/ThemedPage.swift": {
+    "object": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/ThemedPage.swift.o",
+    "swiftmodule": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/ThemedPage~partial.swiftmodule",
+    "swift-dependencies": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/ThemedPage.swiftdeps"
+  },
+  "/Users/mbp/Desktop/Ignite/Sources/Ignite/Framework/UnitPoint.swift": {
+    "object": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/UnitPoint.swift.o",
+    "swiftmodule": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/UnitPoint~partial.swiftmodule",
+    "swift-dependencies": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/UnitPoint.swiftdeps"
+  },
+  "/Users/mbp/Desktop/Ignite/Sources/Ignite/Ignite.swift": {
+    "object": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Ignite.swift.o",
+    "swiftmodule": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Ignite~partial.swiftmodule",
+    "swift-dependencies": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Ignite.swiftdeps"
+  },
+  "/Users/mbp/Desktop/Ignite/Sources/Ignite/Modifiers/AccessibilityLabel.swift": {
+    "object": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/AccessibilityLabel.swift.o",
+    "swiftmodule": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/AccessibilityLabel~partial.swiftmodule",
+    "swift-dependencies": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/AccessibilityLabel.swiftdeps"
+  },
+  "/Users/mbp/Desktop/Ignite/Sources/Ignite/Modifiers/AspectRatio.swift": {
+    "object": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/AspectRatio.swift.o",
+    "swiftmodule": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/AspectRatio~partial.swiftmodule",
+    "swift-dependencies": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/AspectRatio.swiftdeps"
+  },
+  "/Users/mbp/Desktop/Ignite/Sources/Ignite/Modifiers/Background.swift": {
+    "object": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Background.swift.o",
+    "swiftmodule": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Background~partial.swiftmodule",
+    "swift-dependencies": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Background.swiftdeps"
+  },
+  "/Users/mbp/Desktop/Ignite/Sources/Ignite/Modifiers/CornerRadius.swift": {
+    "object": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/CornerRadius.swift.o",
+    "swiftmodule": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/CornerRadius~partial.swiftmodule",
+    "swift-dependencies": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/CornerRadius.swiftdeps"
+  },
+  "/Users/mbp/Desktop/Ignite/Sources/Ignite/Modifiers/ForegroundStyle.swift": {
+    "object": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/ForegroundStyle.swift.o",
+    "swiftmodule": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/ForegroundStyle~partial.swiftmodule",
+    "swift-dependencies": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/ForegroundStyle.swiftdeps"
+  },
+  "/Users/mbp/Desktop/Ignite/Sources/Ignite/Modifiers/Frame.swift": {
+    "object": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Frame.swift.o",
+    "swiftmodule": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Frame~partial.swiftmodule",
+    "swift-dependencies": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Frame.swiftdeps"
+  },
+  "/Users/mbp/Desktop/Ignite/Sources/Ignite/Modifiers/Hidden.swift": {
+    "object": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Hidden.swift.o",
+    "swiftmodule": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Hidden~partial.swiftmodule",
+    "swift-dependencies": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Hidden.swiftdeps"
+  },
+  "/Users/mbp/Desktop/Ignite/Sources/Ignite/Modifiers/Hint.swift": {
+    "object": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Hint.swift.o",
+    "swiftmodule": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Hint~partial.swiftmodule",
+    "swift-dependencies": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Hint.swiftdeps"
+  },
+  "/Users/mbp/Desktop/Ignite/Sources/Ignite/Modifiers/HorizontalAlignment.swift": {
+    "object": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/HorizontalAlignment.swift.o",
+    "swiftmodule": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/HorizontalAlignment~partial.swiftmodule",
+    "swift-dependencies": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/HorizontalAlignment.swiftdeps"
+  },
+  "/Users/mbp/Desktop/Ignite/Sources/Ignite/Modifiers/LazyLoadable.swift": {
+    "object": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/LazyLoadable.swift.o",
+    "swiftmodule": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/LazyLoadable~partial.swiftmodule",
+    "swift-dependencies": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/LazyLoadable.swiftdeps"
+  },
+  "/Users/mbp/Desktop/Ignite/Sources/Ignite/Modifiers/Margin.swift": {
+    "object": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Margin.swift.o",
+    "swiftmodule": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Margin~partial.swiftmodule",
+    "swift-dependencies": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Margin.swiftdeps"
+  },
+  "/Users/mbp/Desktop/Ignite/Sources/Ignite/Modifiers/Opacity.swift": {
+    "object": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Opacity.swift.o",
+    "swiftmodule": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Opacity~partial.swiftmodule",
+    "swift-dependencies": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Opacity.swiftdeps"
+  },
+  "/Users/mbp/Desktop/Ignite/Sources/Ignite/Modifiers/Padding.swift": {
+    "object": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Padding.swift.o",
+    "swiftmodule": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Padding~partial.swiftmodule",
+    "swift-dependencies": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Padding.swiftdeps"
+  },
+  "/Users/mbp/Desktop/Ignite/Sources/Ignite/Modifiers/Position.swift": {
+    "object": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Position.swift.o",
+    "swiftmodule": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Position~partial.swiftmodule",
+    "swift-dependencies": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Position.swiftdeps"
+  },
+  "/Users/mbp/Desktop/Ignite/Sources/Ignite/Modifiers/Shadow.swift": {
+    "object": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Shadow.swift.o",
+    "swiftmodule": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Shadow~partial.swiftmodule",
+    "swift-dependencies": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Shadow.swiftdeps"
+  },
+  "/Users/mbp/Desktop/Ignite/Sources/Ignite/Modifiers/TextDecoration.swift": {
+    "object": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/TextDecoration.swift.o",
+    "swiftmodule": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/TextDecoration~partial.swiftmodule",
+    "swift-dependencies": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/TextDecoration.swiftdeps"
+  },
+  "/Users/mbp/Desktop/Ignite/Sources/Ignite/Modifiers/TextSelection.swift": {
+    "object": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/TextSelection.swift.o",
+    "swiftmodule": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/TextSelection~partial.swiftmodule",
+    "swift-dependencies": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/TextSelection.swiftdeps"
+  },
+  "/Users/mbp/Desktop/Ignite/Sources/Ignite/Publishing/FeedGenerator.swift": {
+    "object": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/FeedGenerator.swift.o",
+    "swiftmodule": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/FeedGenerator~partial.swiftmodule",
+    "swift-dependencies": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/FeedGenerator.swiftdeps"
+  },
+  "/Users/mbp/Desktop/Ignite/Sources/Ignite/Publishing/Location.swift": {
+    "object": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Location.swift.o",
+    "swiftmodule": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Location~partial.swiftmodule",
+    "swift-dependencies": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Location.swiftdeps"
+  },
+  "/Users/mbp/Desktop/Ignite/Sources/Ignite/Publishing/PublishingContext-ResourceLoading.swift": {
+    "object": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/PublishingContext-ResourceLoading.swift.o",
+    "swiftmodule": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/PublishingContext-ResourceLoading~partial.swiftmodule",
+    "swift-dependencies": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/PublishingContext-ResourceLoading.swiftdeps"
+  },
+  "/Users/mbp/Desktop/Ignite/Sources/Ignite/Publishing/PublishingContext.swift": {
+    "object": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/PublishingContext.swift.o",
+    "swiftmodule": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/PublishingContext~partial.swiftmodule",
+    "swift-dependencies": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/PublishingContext.swiftdeps"
+  },
+  "/Users/mbp/Desktop/Ignite/Sources/Ignite/Publishing/PublishingError.swift": {
+    "object": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/PublishingError.swift.o",
+    "swiftmodule": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/PublishingError~partial.swiftmodule",
+    "swift-dependencies": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/PublishingError.swiftdeps"
+  },
+  "/Users/mbp/Desktop/Ignite/Sources/Ignite/Publishing/RobotsGenerator.swift": {
+    "object": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/RobotsGenerator.swift.o",
+    "swiftmodule": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/RobotsGenerator~partial.swiftmodule",
+    "swift-dependencies": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/RobotsGenerator.swiftdeps"
+  },
+  "/Users/mbp/Desktop/Ignite/Sources/Ignite/Publishing/SiteMapGenerator.swift": {
+    "object": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/SiteMapGenerator.swift.o",
+    "swiftmodule": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/SiteMapGenerator~partial.swiftmodule",
+    "swift-dependencies": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/SiteMapGenerator.swiftdeps"
+  },
+  "/Users/mbp/Desktop/Ignite/Sources/Ignite/Publishing/SyntaxHighlightGenerator.swift": {
+    "object": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/SyntaxHighlightGenerator.swift.o",
+    "swiftmodule": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/SyntaxHighlightGenerator~partial.swiftmodule",
+    "swift-dependencies": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/SyntaxHighlightGenerator.swiftdeps"
+  },
+  "/Users/mbp/Desktop/Ignite/Sources/Ignite/Rendering/AttributeValue.swift": {
+    "object": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/AttributeValue.swift.o",
+    "swiftmodule": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/AttributeValue~partial.swiftmodule",
+    "swift-dependencies": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/AttributeValue.swiftdeps"
+  },
+  "/Users/mbp/Desktop/Ignite/Sources/Ignite/Rendering/ElementBuilder.swift": {
+    "object": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/ElementBuilder.swift.o",
+    "swiftmodule": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/ElementBuilder~partial.swiftmodule",
+    "swift-dependencies": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/ElementBuilder.swiftdeps"
+  },
+  "/Users/mbp/Desktop/Ignite/Sources/Ignite/Rendering/Markdown/MarkdownRenderer.swift": {
+    "object": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/MarkdownRenderer.swift.o",
+    "swiftmodule": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/MarkdownRenderer~partial.swiftmodule",
+    "swift-dependencies": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/MarkdownRenderer.swiftdeps"
+  },
+  "/Users/mbp/Desktop/Ignite/Sources/Ignite/Rendering/Markdown/MarkdownToHTML.swift": {
+    "object": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/MarkdownToHTML.swift.o",
+    "swiftmodule": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/MarkdownToHTML~partial.swiftmodule",
+    "swift-dependencies": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/MarkdownToHTML.swiftdeps"
+  },
+  "/Users/mbp/Desktop/Ignite/Sources/Ignite/Rendering/Page.swift": {
+    "object": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Page.swift.o",
+    "swiftmodule": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Page~partial.swiftmodule",
+    "swift-dependencies": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Page.swiftdeps"
+  },
+  "/Users/mbp/Desktop/Ignite/Sources/Ignite/Styles/Color.swift": {
+    "object": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Color.swift.o",
+    "swiftmodule": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Color~partial.swiftmodule",
+    "swift-dependencies": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Color.swiftdeps"
+  },
+  "/Users/mbp/Desktop/Ignite/Sources/Ignite/Styles/ColumnWidth.swift": {
+    "object": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/ColumnWidth.swift.o",
+    "swiftmodule": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/ColumnWidth~partial.swiftmodule",
+    "swift-dependencies": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/ColumnWidth.swiftdeps"
+  },
+  "/Users/mbp/Desktop/Ignite/Sources/Ignite/Styles/CoreAttributes.swift": {
+    "object": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/CoreAttributes.swift.o",
+    "swiftmodule": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/CoreAttributes~partial.swiftmodule",
+    "swift-dependencies": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/CoreAttributes.swiftdeps"
+  },
+  "/Users/mbp/Desktop/Ignite/Sources/Ignite/Styles/DiagonalEdge.swift": {
+    "object": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/DiagonalEdge.swift.o",
+    "swiftmodule": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/DiagonalEdge~partial.swiftmodule",
+    "swift-dependencies": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/DiagonalEdge.swiftdeps"
+  },
+  "/Users/mbp/Desktop/Ignite/Sources/Ignite/Styles/Edge.swift": {
+    "object": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Edge.swift.o",
+    "swiftmodule": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Edge~partial.swiftmodule",
+    "swift-dependencies": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Edge.swiftdeps"
+  },
+  "/Users/mbp/Desktop/Ignite/Sources/Ignite/Styles/EdgeAdjust.swift": {
+    "object": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/EdgeAdjust.swift.o",
+    "swiftmodule": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/EdgeAdjust~partial.swiftmodule",
+    "swift-dependencies": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/EdgeAdjust.swiftdeps"
+  },
+  "/Users/mbp/Desktop/Ignite/Sources/Ignite/Styles/Font.swift": {
+    "object": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Font.swift.o",
+    "swiftmodule": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Font~partial.swiftmodule",
+    "swift-dependencies": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Font.swiftdeps"
+  },
+  "/Users/mbp/Desktop/Ignite/Sources/Ignite/Styles/FontWeight.swift": {
+    "object": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/FontWeight.swift.o",
+    "swiftmodule": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/FontWeight~partial.swiftmodule",
+    "swift-dependencies": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/FontWeight.swiftdeps"
+  },
+  "/Users/mbp/Desktop/Ignite/Sources/Ignite/Styles/OrderedListStyle.swift": {
+    "object": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/OrderedListStyle.swift.o",
+    "swiftmodule": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/OrderedListStyle~partial.swiftmodule",
+    "swift-dependencies": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/OrderedListStyle.swiftdeps"
+  },
+  "/Users/mbp/Desktop/Ignite/Sources/Ignite/Styles/Role.swift": {
+    "object": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Role.swift.o",
+    "swiftmodule": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Role~partial.swiftmodule",
+    "swift-dependencies": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/Role.swiftdeps"
+  },
+  "/Users/mbp/Desktop/Ignite/Sources/Ignite/Styles/SpacingAmount.swift": {
+    "object": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/SpacingAmount.swift.o",
+    "swiftmodule": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/SpacingAmount~partial.swiftmodule",
+    "swift-dependencies": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/SpacingAmount.swiftdeps"
+  },
+  "/Users/mbp/Desktop/Ignite/Sources/Ignite/Styles/UnorderedListStyle.swift": {
+    "object": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/UnorderedListStyle.swift.o",
+    "swiftmodule": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/UnorderedListStyle~partial.swiftmodule",
+    "swift-dependencies": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/UnorderedListStyle.swiftdeps"
+  },
+  "/Users/mbp/Desktop/Ignite/Sources/Ignite/Themes/EmptyTheme.swift": {
+    "object": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/EmptyTheme.swift.o",
+    "swiftmodule": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/EmptyTheme~partial.swiftmodule",
+    "swift-dependencies": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/EmptyTheme.swiftdeps"
+  },
+  "/Users/mbp/Desktop/Ignite/Sources/Ignite/Themes/MissingTheme.swift": {
+    "object": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/MissingTheme.swift.o",
+    "swiftmodule": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/MissingTheme~partial.swiftmodule",
+    "swift-dependencies": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/MissingTheme.swiftdeps"
+  },
+  "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/DerivedSources/resource_bundle_accessor.swift": {
+    "object": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/resource_bundle_accessor.swift.o",
+    "swiftmodule": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/resource_bundle_accessor~partial.swiftmodule",
+    "swift-dependencies": "/Users/mbp/Desktop/Ignite/.build/arm64-apple-macosx/release/Ignite.build/resource_bundle_accessor.swiftdeps"
+  }
+}

@@ -16,3 +16,17 @@ struct MyTheme: Theme {
         }
     }
 }
+
+
+public struct MMFooter: Component {
+    public init() { }
+
+    public func body(context: PublishingContext) -> [any PageElement] {
+        Text {
+            "Created with"
+            Link("Milos", target: URL("https://github.com/twostraws/Ignite"))
+        }
+        .horizontalAlignment(.center)
+        .margin(.top, .extraLarge)
+    }
+}

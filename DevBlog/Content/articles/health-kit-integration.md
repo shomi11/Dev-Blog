@@ -3,7 +3,7 @@ tags: Swift, HealthKit
 lastModified: 2024-05-19
 ---
 
-## HealthKit integration in Swift
+## HealthKit integration
 
 HealthKit is a framework provided by Apple that allows us to read and write data to the Health app on Apple devices. This guide demonstrates the basic setup for requesting authorization, reading, and writing HealthKit data.
 

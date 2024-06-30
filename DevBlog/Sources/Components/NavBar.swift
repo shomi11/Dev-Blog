@@ -11,7 +11,12 @@ import Ignite
 struct NavBar: Component {
     func body(context: PublishingContext) -> [any PageElement] {
         NavigationBar(
-            logo: Image("/images/nav-image.jpeg", description: "nav-image").resizable().lazy().frame(width: "min(60vw, 100px)", height: "100%").cornerRadius(100))
+            logo: Image("/images/nav-image.jpeg", description: "nav-image")
+                .resizable()
+                .lazy()
+                .frame(width: "min(60vw, 100px)", height: "100%")
+                .cornerRadius(100)
+        )
         {
             Link(
                 Text("Articles").fontWeight(.bold).foregroundStyle(.dark),
@@ -23,8 +28,8 @@ struct NavBar: Component {
             )
         }
         .navigationItemAlignment(.trailing)
-        .navigationBarStyle(.dark)
-        .background(.lightGray)
+        .navigationBarStyle(.default)
+        .background(.linearGradient(colors: [.lightBlue, .darkBlue, .whiteSmoke], startPoint: .leading, endPoint: .trailing))
         .position(.fixedTop)
     }
 }

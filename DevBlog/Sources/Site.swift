@@ -1,5 +1,6 @@
 import Foundation
 import Ignite
+import Markdown
 
 @main
 struct IgniteWebsite {
@@ -20,7 +21,6 @@ struct DevBlog: Site {
     var builtInIconsEnabled = true
     var syntaxHighlighters = [SyntaxHighlighter.swift]
     var author = "Milos Malovic"
-    
     var homePage = Home()
     var tagPage = Tags()
    

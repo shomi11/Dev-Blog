@@ -14,7 +14,7 @@ struct Apps: StaticPage {
 
     func body(context: PublishingContext) -> [BlockElement] {
         Section {
-            Text("I’m Milos, an iOS developer at NCR Corporation for the past six years. I love bringing ideas to life on the screen and making sure everything runs smoothly for users.")
+            Text("I’m Milos, an iOS developer previous at NCR Corporation for the past six years. I love bringing ideas to life on the screen and making sure everything runs smoothly for users.")
                 .font(.title5)
                 .fontWeight(.medium)
         }
@@ -47,15 +47,21 @@ struct Apps: StaticPage {
             for item in context.content(ofType: "apps") {
                 Card(imageName: "/images/icons/\(item.image ?? "").jpg") {
                     Text(item.title).foregroundStyle(.white).fontWeight(.bold).font(.title2)
-                    Text(item.description)
+                        .padding([.top, .horizontal], 4)
+                    Text(item.subtitle ?? "")
                         .foregroundStyle(.white).opacity(0.8).fontWeight(.semibold)
+                        .background(.black.opacity(0.5))
+                        .padding([.bottom, .horizontal], 4)
+                        .cornerRadius(12)
+                    
                     Link("Show more", target: "\(item.path)")
                             .linkStyle(.button)
                 }
-                .frame(maxWidth: 400)
+                .width(4)
                 .contentPosition(.overlay)
             }
         }
+        .columns(2)
         .padding(.top, 32)
     }
 }

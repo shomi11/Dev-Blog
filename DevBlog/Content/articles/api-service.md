@@ -1,9 +1,9 @@
 ---
-tags: Swift, Api, URLSession, Request
+tags: Swift, Api, URLSession
 lastModified: 2024-05-19
 ---
 
-## Swift API Service Creation
+## Swift API Service
 
 This guide demonstrates how to create an API service in Swift using URLSession for handling network requests. We'll walk through the implementation of an APIService class and provide an example of its usage in fetching data asynchronously.
 

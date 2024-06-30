@@ -3,7 +3,7 @@ tags: Swift, URLSession, Router
 lastModified: 2024-05-19
 ---
 
-## URLSession router in Swift
+## URLSession router
 
 This guide demonstrates how to create a router for managing network requests using URLSession in Swift. We'll define a base URL, create an enum for routing different API endpoints, and provide a detailed example of how to configure and make requests.
 

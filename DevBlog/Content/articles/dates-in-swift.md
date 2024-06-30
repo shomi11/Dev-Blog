@@ -3,7 +3,7 @@ tags: Swift, Dates
 lastModified: 2024-03-23
 ---
 
-## Working with Dates in Swift
+## Working with Dates
 
 We will cover the basics of handling dates in Swift, including creating dates, formatting, and manipulating them.
 

@@ -1,0 +1,96 @@
+<!doctype html><html lang="en" data-bs-theme="light"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content="Adding In-App Purchases (IAP) to your app can enhance user experience and generate revenue. Here’s a step-by-step guide to setting up IAP in App Store Connect."><meta name="author" content="Milos Malovic"><meta name="generator" content="Ignite v0.1.0"><title>In-App Purchases</title><link href="/css/bootstrap.min.css" rel="stylesheet"><link href="/css/prism-default-dark.css" rel="stylesheet"><link href="/css/bootstrap-icons.min.css" rel="stylesheet"><link href="https://www.bytework.dev/articles/iap" rel="canonical"><meta property="og:site_name" content="MM dev blog"><meta property="og:title" content="In-App Purchases"><meta property="twitter:title" content="In-App Purchases"><meta property="og:description" content="In-App Purchases"><meta name="twitter:description" content="In-App Purchases"><meta property="og:url" content="https://www.bytework.dev/articles/iap"><meta name="twitter:domain" content="bytework.dev"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:dnt" content="on"></head><body style="padding-top: 120px; padding-bottom: 120px"><div class="col-sm-10 mx-auto"><header><nav class="fixed-top navbar navbar-expand-md" style="background: linear-gradient(90deg, rgb(173 216 230 / 100%), rgb(0 0 139 / 100%), rgb(245 245 245 / 100%))"><div class="container-fluid col"><a href="/" class="navbar-brand"><img src="/images/nav-image.jpeg"  loading="lazy" class="img-fluid mx-auto" style="width: min(60vw, 100px); height: 100%; border-radius: 100px"alt="nav-image"/></a><button type="button" class="navbar-toggler btn" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button><div id="navbarCollapse" class="collapse navbar-collapse"><ul class="navbar-nav mb-2 mb-md-0 col justify-content-end"><li class="nav-item"><a href="/articles" class="nav-link"><p class="text-dark" style="font-weight: 700">Articles</p></a></li><li class="nav-item"><a href="/apps" class="nav-link"><p class="text-dark" style="font-weight: 700">My Apps</p></a></li></ul></div></div></nav></header><h1>In-App Purchases</h1><div><p>Tagged with: Swift, iOS</p><p>696 words; 3 minutes to read.</p></div><p><p>Adding In-App Purchases (IAP) to your app can enhance user experience and generate revenue. Here’s a step-by-step guide to setting up IAP in App Store Connect.</p><h3>Adding a New Product (IAP)</h3><img src="/images/iap-article/main_iap.png" alt="Distribution Page" style="width: 100%; max-width: 600px;">
+<pre><code><br>
+</code></pre><ol><li><strong>Navigate to the Distribution Page:</strong><ul><li>Find the bottom left corner of your app’s Distribution page in App Store Connect.</li></ul> <img src="/images/iap-article/add_iap_plus.png" alt="" style="width: 100%; max-width: 600px;">
+</li><li><strong>Add a New Product:</strong><ul><li>Click the plus sign to add a new product (IAP).</li></ul> <br>
+ <img src="/images/iap-article/type_iap.png" alt="" style="width: 100%; max-width: 600px;">
+</li></ol><h3>Choose the Type of IAP</h3><p>There are two types of In-App Purchases:</p><ul><li><strong>Consumable:</strong> These can be purchased, used, and bought again. For example, health points in a game.</li><li><strong>Non-consumable:</strong> These are purchased once and owned forever. This could be a one-time purchase for a feature or all features in the app.</li></ul><h3>Setting Up Your IAP</h3><ul><li><strong>Reference Name:</strong> This is an internal name for App Store Connect to use in reports. It won’t be shown to users.</li><li><strong>Product ID:</strong> This is a unique alphanumeric ID that must be unique across all your IAPs in all apps. This is the ID you will call in your code to request details and initiate purchases.</li></ul><p>Once you’ve filled in the necessary details, save your product. If the system doesn’t automatically take you to the next page, click on your newly saved IAP.</p><pre><code><img src="/images/iap-article/details_iap.png" alt="" style="width: 100%; max-width: 600px;">
+</code></pre><h3>Configure IAP Details</h3><p>Here, you need to set various options:</p><ul><li><strong>Price:</strong> Set the price of your IAP.</li><li><strong>Availability:</strong> Choose the countries where your IAP will be available.</li><li><strong>Localization:</strong> Provide translations for different languages if necessary.</li></ul><p><strong>Review Information:</strong>It’s crucial to fill this section extensively. Detailed information here will help ensure that your review passes the check immediately.</p><h3>Implementing IAP in Your App</h3><p>Now let’s move on to the code side of things.</p><p><strong>1. Track User Purchases:</strong></p><p>Create an observable object to track important behaviors in the app, such as the type of user (free or premium).</p><pre><code class="language-swift">class ApplicationState: ObservableObject {
+    @Published var route: AppRouter = .splash
+    @Published var isPremiumUser: Bool = false
+}
+</code></pre><p>And here is IAP manager that can help anyone as a starting point.</p><pre><code class="language-swift">import Foundation
+import StoreKit
+
+class IAStoreManager: NSObject, ObservableObject, SKProductsRequestDelegate, SKPaymentTransactionObserver {
+
+    @Published var products: [SKProduct] = []
+    @Published var purchasedProductIdentifiers: Set<String> = []
+
+    override init() {
+        super.init()
+        loadPurchasedProducts()
+        SKPaymentQueue.default().add(self)
+        fetchProducts()
+    }
+
+    deinit {
+        SKPaymentQueue.default().remove(self)
+    }
+
+    func fetchProducts() {
+        let productIdentifiers = Set(["your_product_id"])
+        let request = SKProductsRequest(productIdentifiers: productIdentifiers)
+        request.delegate = self
+        request.start()
+    }
+
+    func productsRequest(_ request: SKProductsRequest, didReceive response: SKProductsResponse) {
+        DispatchQueue.main.async {
+            self.products = response.products
+        }
+    }
+    
+    func request(_ request: SKRequest, didFailWithError error: any Error) {
+        print(error)
+    }
+    
+    func requestDidFinish(_ request: SKRequest) { }
+
+    func purchase(product: SKProduct) {
+        let payment = SKPayment(product: product)
+        SKPaymentQueue.default().add(payment)
+    }
+
+    func paymentQueue(_ queue: SKPaymentQueue, updatedTransactions transactions: [SKPaymentTransaction]) {
+        for transaction in transactions {
+            switch transaction.transactionState {
+            case .purchased:
+                SKPaymentQueue.default().finishTransaction(transaction)
+                savePurchasedProduct(identifier: transaction.payment.productIdentifier)
+                loadPurchasedProducts()
+            case .failed:
+                SKPaymentQueue.default().finishTransaction(transaction)
+            case .restored:
+                SKPaymentQueue.default().finishTransaction(transaction)
+                savePurchasedProduct(identifier: transaction.payment.productIdentifier)
+                loadPurchasedProducts()
+            case .deferred, .purchasing:
+                break
+            @unknown default:
+                break
+            }
+        }
+    }
+    
+    func paymentQueue(_ queue: SKPaymentQueue, restoreCompletedTransactionsFailedWithError error: any Error) {
+        DispatchQueue.main.async {
+            NotificationCenter.default.post(name: .restoreFailed, object: error.localizedDescription)
+        }
+    }
+    
+    func restorePurchases() {
+        SKPaymentQueue.default().restoreCompletedTransactions()
+    }
+
+    private func savePurchasedProduct(identifier: String) {
+        var purchasedProducts = UserDefaults.standard.array(forKey: "purchasedProducts") as? [String] ?? []
+        purchasedProducts.append(identifier)
+        UserDefaults.standard.set(purchasedProducts, forKey: "purchasedProducts")
+    }
+
+    private func loadPurchasedProducts() {
+        let purchasedProducts = UserDefaults.standard.array(forKey: "purchasedProducts") as? [String] ?? []
+        purchasedProductIdentifiers = Set(purchasedProducts)
+    }
+}
+</code></pre></p><div class="text-center mt-5 card"><div class="card-body"><a href="https://x.com/m_11070" class="card-link" style="padding-left: 20px; padding-right: 20px"><img src="/images/social/twitter.png"  class="img-fluid mx-auto" style="width: 60px"alt=""/></a><a href="https://www.instagram.com/byte_work?igsh=cG1zeHBlOTRydWpz&utm_source=qr" class="card-link" style="padding-left: 20px; padding-right: 20px"><img src="/images/social/instagram.svg"  class="img-fluid mx-auto" style="width: 60px"alt=""/></a><a href="https://www.linkedin.com/in/milosmalovic/" class="card-link" style="padding-left: 20px; padding-right: 20px"><img src="/images/social/linkedin.webp"  class="img-fluid mx-auto" style="width: 60px"alt=""/></a></div></div></div><script src="/js/bootstrap.bundle.min.js"></script><script src="/js/syntax-highlighting.js"></script></body></html>
